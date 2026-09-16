@@ -6,11 +6,17 @@
 
 ---
 
-> ## ⚠️ THIS REPOSITORY IS NOT THE SUBMISSION
->
-> The Capstone brief states explicitly that **exactly one submission is accepted — a Google Doc link only** — and that *"any other link (Notion, **GitHub**, OneDrive, PDF, etc.) will not be graded."*
->
-> **This repository exists as a portfolio and working record. It must not be submitted, and no grader will read it.** The graded artifact is the Google Doc assembled from [`submission/SUBMISSION_GOOGLE_DOC.md`](submission/SUBMISSION_GOOGLE_DOC.md).
+## Result
+
+**95 / 100 · 9.5 / 10**
+
+| Section | Score | |
+|---|---|---|
+| Part A — Research, persona & feature PRD | **29 / 30** | 97% |
+| Part B — Prototype, usability validation & pricing | **32 / 35** | 91% |
+| Part C — Funnel, experiment & growth | **34 / 35** | 97% |
+
+The two Part B deductions were the two things this project deliberately refused to invent: no High-severity insight→action friction was found in usability testing, and the Errors category came back empty. Both are documented below under *Known limitations*. Manufacturing either one would have scored better and made everything downstream false.
 
 ---
 
@@ -24,33 +30,35 @@ The feature detects a recurring charge from the user's own PhonePe transaction h
 
 **It makes no claim about service usage, email activity, merchant-side account status, trial status, or objective necessity.** It cannot know those things, and it says so on screen.
 
+The graded artifact was a Google Doc assembled from [`submission/SUBMISSION_GOOGLE_DOC.md`](submission/SUBMISSION_GOOGLE_DOC.md). This repository is the working record behind it — every source document, the decision register, and the evidence log.
+
 ## Repository map
 
 ```
-├── README.md                        ← you are here
+├── README.md                                    ← you are here
 ├── capstone/
-│   ├── part-a/                      Research, persona & feature PRD (30 marks)
+│   ├── part-a/                                  Research, persona & feature PRD (30 marks)
 │   │   ├── task-1-segmentation.md
 │   │   ├── task-1-segmentation-AUDIT.md
 │   │   ├── task-2-competitive-analysis.md
 │   │   ├── task-5-prd-lite.md
 │   │   └── task-5-prd-lite-AUDIT.md
-│   ├── part-b/                      Prototype, usability validation & pricing (35 marks)
+│   ├── part-b/                                  Prototype, usability validation & pricing (35 marks)
 │   │   ├── task-1-prototype-audit.md
 │   │   ├── task-2-ai-classification.md
 │   │   ├── task-3-tester-protocol.md
-│   │   ├── task-3-usability-testing.md            ← Set A, real users
+│   │   ├── task-3-usability-testing.md          ← Set A, real users
 │   │   ├── task-3-evidence-record-v2-superseded.md
-│   │   ├── task-3-heuristic-walkthrough-SET-C.md  ← Set C, NOT user evidence
+│   │   ├── task-3-heuristic-walkthrough-SET-C.md ← Set C, NOT user evidence
 │   │   ├── task-4-ethics-bias-safety.md
 │   │   └── task-5-pricing-packaging.md
 │   └── part-c/
-│       └── part-c-full.md           Funnel, A/B test, growth loop, AI evaluation (35 marks)
+│       └── part-c-full.md                       Funnel, A/B test, growth loop, AI evaluation (35 marks)
 ├── decisions/
-│   └── CAPSTONE_CONTROL_CENTER.md   Locked-decision register, evidence log, requirements matrix
+│   └── CAPSTONE_CONTROL_CENTER.md               Locked-decision register, evidence log, requirements matrix
 └── submission/
-    ├── SUBMISSION_GOOGLE_DOC.md     ← the graded case document (source)
-    └── FINAL_CAPSTONE_SUBMISSION.docx  ← the same document, formatted
+    ├── SUBMISSION_GOOGLE_DOC.md                 ← the graded case document (source)
+    └── FINAL_CAPSTONE_SUBMISSION.docx           ← the same document, formatted
 ```
 
 **Part A Task 3 and Task 4** (RICE prioritisation and the Airtable base) do not have standalone files: the RICE scoring lives inside `task-2-competitive-analysis.md`, and the Airtable base is a live artifact, not a document. Both are reproduced in full in the submission document.
